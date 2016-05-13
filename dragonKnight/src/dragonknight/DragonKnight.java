@@ -20,11 +20,7 @@ public class DragonKnight {
         Player playerOne = new Player();
         
         playerOne.setName("Steve Rodgers");
-        playerOne.classSelection("Avenger");
-        playerOne.race("Superhero");
-        playerOne.attributes("Super Soldier");
-        playerOne.itemList("Shield");
-        playerOne.tile("45");
+        
         
         String playerInfo = playerOne.toString();
         System.out.println("playerInfo");
