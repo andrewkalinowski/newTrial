@@ -14,7 +14,6 @@ import byui.cit260.dragonknight.model.Player;
  */
 public class DragonKnight {
 
-    private static Object itemone;
 
     /**
      * @param args the command line arguments
