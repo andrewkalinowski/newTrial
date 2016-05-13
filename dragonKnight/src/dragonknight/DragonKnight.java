@@ -5,6 +5,7 @@
  */
 package dragonknight;
 
+import byui.cit260.dragonknight.model.Item;
 import byui.cit260.dragonknight.model.Player;
 
 /**
@@ -12,6 +13,8 @@ import byui.cit260.dragonknight.model.Player;
  * @author DragonmanJoel
  */
 public class DragonKnight {
+
+    private static Object itemone;
 
     /**
      * @param args the command line arguments
@@ -24,6 +27,16 @@ public class DragonKnight {
         
         String playerInfo = playerOne.toString();
         System.out.println("playerInfo");
+        
+        
+        Item itemOne = new Item();
+        
+        itemOne.setName("potion");
+        itemOne.setDescription("Heals 100 HP");
+        itemOne.setCost("10 gold");
+        
+        String itemInfo = itemOne.toString();
+        System.out.println("itemInfo");
     }
     
 }
