@@ -5,6 +5,7 @@
  */
 package dragonknight;
 
+import byui.cit260.dragonknight.model.Game;
 import byui.cit260.dragonknight.model.Item;
 import byui.cit260.dragonknight.model.Player;
 
@@ -29,6 +30,17 @@ public class DragonKnight {
         
         String playerInfo = playerOne.toString();
         System.out.println("playerInfo");
+ 
+        
+        Game gameOne = new Game();
+        
+        gameOne.setMenu("M = Map");
+        gameOne.setSpell("Fire");
+        gameOne.setPlayerLevel(13);
+        gameOne.setHitPoints(1000);
+        
+        String gameInfo = gameOne.toString();
+        System.out.println("gameInfo");
         
         
         Item itemOne = new Item();
