@@ -23,7 +23,9 @@ public class DragonKnight {
         Player playerOne = new Player();
         
         playerOne.setName("Steve Rodgers");
-        
+        playerOne.setClassSelection("Avenger");
+        playerOne.setAttributes("Super Soldier");
+        playerOne.setRace("white");
         
         String playerInfo = playerOne.toString();
         System.out.println("playerInfo");
