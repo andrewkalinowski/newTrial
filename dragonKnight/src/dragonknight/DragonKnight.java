@@ -7,6 +7,8 @@ package dragonknight;
 
 import byui.cit260.dragonknight.model.Game;
 import byui.cit260.dragonknight.model.Item;
+import byui.cit260.dragonknight.model.Monster;
+import byui.cit260.dragonknight.model.NPC;
 import byui.cit260.dragonknight.model.Player;
 
 /**
@@ -51,6 +53,27 @@ public class DragonKnight {
         
         String itemInfo = itemOne.toString();
         System.out.println("itemInfo");
+        
+        Monster monsterOne= new Monster();
+        
+        monsterOne.setName("Grim");
+        monsterOne.setDescription("perfect");
+        monsterOne.setHitPoint(5);
+        monsterOne.setItemDrop("portion");
+        
+        String monsterInfo =  monsterOne.toString();
+        System.out.println("monsterInfo");
+        
+        
+        NPC npcOne = new NPC();
+        
+        npcOne.setLocation("itemshop");
+        npcOne.setDescription("shopowner");
+        
+        String npcInfo = npcOne.toString();
+        System.out.println("npcInfo");
+        
+        
     }
     
 }
